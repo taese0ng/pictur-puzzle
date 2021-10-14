@@ -1,12 +1,16 @@
 import React from 'react';
 import Header from './components/Header';
 import Input from './components/Input';
+import Body from './components/Body';
 import styled from 'styled-components';
+
 function App() {
   return (
     <div className="App">
       <Container>
         <Header/>
+
+        <Body/>
 
         <Input/>
       </Container>
@@ -15,8 +19,12 @@ function App() {
 }
 
 const Container = styled.div`
-  margin: auto;
-  width: 595.276px;
+  margin: 20px auto;
+  width: 513.2253px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
 `
 
 export default App;

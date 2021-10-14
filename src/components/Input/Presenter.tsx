@@ -20,15 +20,16 @@ function Presenter(props:Props) {
 const Fieldset = styled.fieldset`
     text-align: center;
     border-color: #2E4696;
-    padding-top:0;
-    padding-bottom: 0;
+    padding: 0;
+    width: 100%;
 `
 const TextArea = styled.textarea`
     border: none;
     resize: none;
-    width: 100%;
-    height: 100%;
+    height: 73.8733px;
     outline: none;
+    width: 100%;
+    padding: 0;
 `
 
 
